@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <link rel="stylesheet" href="./style.css"/> 
+   <script src="myscripts.js"></script>
+</head>
+<body>
+
+<nav class="bg-img">
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active">
+            <img src="./Billeder/Logo.jpg" />
+        </a>
+        <a href="./Sider/Koncerter.html">Koncerter</a>
+        <a href="./Sider/Events.html">Events</a>
+        <a href="./Sider/festivaler.html">Festivaler</a>
+        <a href="./Sider/priser.html">Priser</a>
+        <a href="./Sider/Info.html">Info</a>  
+    </div>
+
+    
+    <div class="empty-space"></div>
+
+<script>
+
+</script>
+    <div id="dele-2">
+        <div class="row">
+            <div class="column">
+               
+                <h1>
+                    2022 KONCERTER
+                </h1>
+                <p>
+                    XXXXXXXXXXXX
+                </p>
+            </div>
+            <div class="column">
+                <h1>
+                    Musikfestivaler Europa
+                </h1>
+                <p>
+                    XXXXXXXXXXXX
+                </p>
+            </div>
+            <div class="column">
+              
+                <h1>
+                    Festival DANMARK
+                </h1>
+                <p>
+                    XXXXXXXXXXXXXX
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="dele-3">
+        <h1>Kontaktformular</h1>
+        <form onsubmit="return false"></form>
+        <input type="text" placeholder="Fornavn" id="firstName" />
+        <br><br>
+        <input type="text" placeholder="Efternavn" id="lastName" />
+        <br><br>
+        <input type="radio" id="male" name="gender" value="male"> Mand
+        <input type="radio" id="female" name="gender" value="female"> Kvinde
+        <br><br>
+        <input type="email" placeholder="Email" id="email" />
+        <input type="text" placeholder="Adresse" id="address" />
+            
+        <input type="text" placeholder="Husnummer" id="houseNumber" />
+        
+           
+        <select id="country">
+         <option disabled selected value> -- Select an event -- </option>
+         <option value="Narnia">Koncert</option>
+         <option value="Neverland">Festival</option>
+         <option value="Vulcan">Meet & Greet</option>
+        </select>
+        <br><br>
+        <option disabled selected value> -- Password -- </option>
+        <input type="password" placeholder="Indtast adgangskode" id="password" />   
+        <input type="password" placeholder="Adgangskode (check)" id="passwordCheck" />
+        <br><br>
+        <input type="checkbox" id="newsletter" />Send mig nyheder og tilbud
+        <br><br>
+        <span>Flere oplysninger?</span>
+        <br>
+        <textarea id="question" rows="4"></textarea>
+        <br><br>
+        <button onclick="sendContact();">Send</button>
+        
+    </div>
+    <footer id="footer">
+        <p>© 2021 All Rights Reserved.</p>
+    
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </footer>
+  
+</nav>
+
+</body>
+</html
